@@ -1,0 +1,1 @@
+set TEMPLATES_AUTO_RELOAD=True

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Collection of a bunch of my projects" />
+        <meta charset="utf-8">
+        <title>My Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="mart368b">
+        <link rel="stylesheet" href="static/css/reset.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/screen-saver.css">
+        
+    </head>
+
+    <body>
+        <div id="home">
+            <a href="/">Back</a>
+        </div>
+        <canvas id="myCanvas" width="100" height="100" style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML canvas tag.
+        </canvas>
+
+        <div id="settings">
+            <div>
+                <p>Auto reset:</p>
+                <input id="auto_reset_box" checked type="checkbox">
+            </div>
+            <div>
+                <p>Start radius:</p>
+                <input id="start_radius_slider" type="range" min="1" max="500" value="200">
+            </div>
+            <div>
+                <p>Rotation:</p>
+                <input id="rotation_vel_varience" type="range" min="0.1" max="200" value="10">
+            </div>
+            <div>
+                <p>Speed:</p>
+                <input id="speed_varience_slider" type="range" min="0.1" max="10" step="0.1" value="1">
+            </div>
+            <div>
+                <p>Time step:</p>
+                <input id="step_size_slider" type="range" min="1" max="1000" value="1">
+            </div>
+            <div>
+                <p>Count:</p>
+                <input id="particle_count_slider" type="range" min="1" max="100" value="10">
+            </div>
+            <button type="button" id="reset">Reset</button> 
+        </div>
+
+        <script type="text/javascript" src="static/js/screen-saver/screen-saver.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    overflow: hidden
+}
+
+#settings {
+    padding: 10px;
+    background-color: #0000001c;
+    display: flex; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    justify-items: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#settings > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#canvas-contianer {
+    width: 100vw;
+    height: 100vh;
+}
+
+#myCanvas {
+    width: 100vw;
+    height: 100vh;
+}
